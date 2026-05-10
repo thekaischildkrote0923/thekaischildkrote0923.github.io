@@ -1,4 +1,3 @@
-/* 1. 設定整個網頁的底色和字體 */
 body {
     background-color: #f4f7f6; /* 淺灰色背景 */
     font-family: "Microsoft JhengHei", Arial, sans-serif; /* 設定繁體中文標楷體 */
@@ -9,24 +8,12 @@ body {
     margin: 0;
 }
 
-/* 2. 美化個人簡介的卡片 */
-.profile-card {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;      /* 圓角 */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* 淡淡的陰影，增加立體感 */
-    max-width: 400px;
-    text-align: center;       /* 文字置中 */
-}
-
-/* 3. 標題美化 */
 h1 {
     color: #2c3e50;
     border-bottom: 2px solid #3498db; /* 標題下的一條藍線 */
     padding-bottom: 10px;
 }
 
-/* 4. 段落文字美化 */
 p {
     color: #7f8c8d;
     line-height: 1.6;        /* 增加行距，閱讀更舒服 */
