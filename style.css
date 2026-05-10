@@ -2,19 +2,20 @@ body {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    min-height: auto;
+    padding-top: 50px;
     margin: 0;
 }
 
 h1 {
     color: #2c3e50;
-    border-bottom: 2px solid #3498db; /* 標題下的一條藍線 */
+    border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
 }
 
 p {
     color: #7f8c8d;
-    line-height: 1.6;        /* 增加行距，閱讀更舒服 */
+    line-height: 1.6;
 }
